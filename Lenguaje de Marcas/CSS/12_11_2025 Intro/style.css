@@ -1,0 +1,36 @@
+body{
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+h1{
+    color: blue;
+    background-color: aliceblue;
+    }
+
+p{
+    color: aquamarine;
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+#p2{
+    color: black;
+    background-color: aliceblue;
+}
+.parrafo{
+    color: brown;
+    background-color: antiquewhite;
+}
+div, p{
+    color: aqua;
+    background-color: black;
+}
+a:hover{
+    color: chocolate;
+    background-color: azure;
+}
+#p2::first-letter{
+    font-size: xx-large;
+    color: blueviolet;
+}
+    

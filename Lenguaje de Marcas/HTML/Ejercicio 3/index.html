@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <label for="nombreCompleto">Nombre de usuarios:</label>
+        <input type="text" id="nombreCompleto" name="nombreCompleto" required placeholder="Introduce tu nombre Completo">
+        <br> <br> 
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" placeholder="Introduce tu email"> <br>
+
+        <label for="Pasword">Contraseña</label>
+        <input type="password" id="password" name="password" required placeholder="Confirma tu Contraseña"> <br><br>
+
+        <label for="password2">Contraseña2</label>
+        <input type="password2" id="password2" name="password2" required placeholder="Confirma tu Contraseña2"> <br><br>
+
+        <label for="Teléfono">Teléfono</label>
+        <input type="tel" id="Teléfono" name="Teléfono" required pattern "^\d{9,12}$" placeholder ="Introduce tu número de Teléfono">´<br><br>
+
+        <label for="FechaNacimiento">Fecha de nacimiento</label>
+        <input type="date" id="FechaNacimiento"  name="FechaNacimiento" required> <br><br>
+
+        <label for="País"> ¿Cual es tu País de nacimiento</label>
+        <select id="País" name="País" required>
+            <option value=""disablrd selected> Selecciona tu País</option> 
+            <option value="españa">España</option>
+            <option value="francia">Francia</option>
+            <option value="italia">Italia</option>
+            <option value="alemania">Alemania</option>
+            <option value="portugal">Portugal</option>
+        </select> <br><br><br>
+        <label>Género:</label>
+        <input type="radio" name="genero" id="masculino" value="masculino" required>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="femenino" value="femenino" required>
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="other" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        <label for="color">Selecciona tu color favorito</label>
+        <input type="color" id="color" name="color" value="#345678"><br><br>
+
+ - Nivel de satisfacción (rango del 0 al 10)
+        <label for=""></label>
+        <input type="range" id="satisfacción" name="satisfacción" min="0" max="10"> <br><br>
+        <select name="" id="">
+            <option value="" disabled selected>Selecciona tu nivel de satisfacción</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br><br>
+
+
+- Foto Perfil (subida de archivo)
+
+        <label for="fotoPerfil">Sube tu foto de Perfil</label>
+        <input type="file" id="fotoPerfil" accept="image/*"><br><br>
+
+- Casilla para aceptar terminos
+        <label for="Aceptar terminos"><a href="#">Aceptar Terminos y Condiciones</a></label>
+        <input type="checkbox" id="aceptarTerminos" name="aceptarTerminos" required><br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
